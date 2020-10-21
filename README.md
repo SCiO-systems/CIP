@@ -7,11 +7,11 @@ SCiO Spectral Indices Prospects (SIPs) is a dataset containing historical data a
 
 ## Temporal coverage
 
-SIPS operate at a yearly step. Historical coverage starts from 1982 for NDVI and 1979 for SMI, while predictions reach up to 2099 for both indices.
+SIPs operate at a yearly step. Historical coverage starts from 1982 for NDVI and 1979 for SMI, while predictions reach up to 2099 for both indices.
 
 ## Spatial coverage
 
-The current version (v1.0) of SIPs includes data for 7 countries and their first-level administrative jurisdictions. Future versions will expand the geographical coverage of the dataset. The geographic coverage of each SIPS version can be monitored via the relevant [report](https://github.com/SCiO-systems/SIP/blob/main/Geographic%20Coverage.md).
+The current version (v1.0) of SIPs includes data for 7 countries and their first-level administrative jurisdictions. Future versions will expand the geographical coverage of the dataset. The geographic coverage of each SIPs version can be monitored via the relevant [report](https://github.com/SCiO-systems/SIP/blob/main/Geographic%20Coverage.md).
 
 ## Prediction generation methodology
 
@@ -23,13 +23,13 @@ For ARIMAX to operate, we need historical data for the targeted variables and bo
 
 ### Dataset structure
 
-The SIPS dataset comprises CSV files organised per geographical area and index. Naming follows the `idx_<area_code>_<index>` convention, where `<area_code>` refers to the specifier of the area and `<index>`, refers to the index covered by the file (NDVI or SMI).
+The SIPs dataset comprises CSV files organised per geographical area and index. Naming follows the `idx_<area_code>_<index>` convention, where `<area_code>` refers to the specifier of the area and `<index>`, refers to the index covered by the file (NDVI or SMI).
 
 Each file includees three columns: `Year`, `rcp4.5_<index>` and `rcp8.5_<index>`, where `<index>`, as before, refers to the index covered by the file. The `rcp` columns provide the predictions for the respective index based on two global development scenarios expressed as Representative Concentration Pathways ([RCPs](https://sedac.ciesin.columbia.edu/ddc/ar5_scenario_process/RCPs.html)), RCP4.5 and RCP8.5.
 
 ### Country and Region specifier encoding
 
-The following table summarises the encoding used for the country specifiers throughout the dataset(the `area_code` parameter in the respective filenames). Detailed specifier codes, including codes uses for each country first administration level (regions) can be found at the Region Codes [file](https://github.com/SCiO-systems/SIP/blob/main/Region%20Codes.md) in the SIPS repository.
+The following table summarises the encoding used for the country specifiers throughout the dataset(the `area_code` parameter in the respective filenames). Detailed specifier codes, including codes uses for each country first administration level (regions) can be found at the Region Codes [file](https://github.com/SCiO-systems/SIP/blob/main/Region%20Codes.md) in the SIPs repository.
 
 #### Country codes
 
