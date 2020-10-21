@@ -29,7 +29,7 @@ Each file includees three columns: `Year`, `rcp4.5_<index>` and `rcp8.5_<index>`
 
 ### Country and Region specifier encoding
 
-The following table summarises the encoding used for the country specifiers throughout the dataset(the `area_code` parameter in the respective filenames). Detailed specifier codes, including codes uses for each country first administration level (regions) can be found at the Region Codes [file](Region Codes.md) in the SIPS repository.
+The following table summarises the encoding used for the country specifiers throughout the dataset(the `area_code` parameter in the respective filenames). Detailed specifier codes, including codes uses for each country first administration level (regions) can be found at the Region Codes [file](https://github.com/SCiO-systems/SIP/blob/main/Region%20Codes.md) in the SIPS repository.
 
 #### Country codes
 
