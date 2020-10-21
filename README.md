@@ -1,6 +1,6 @@
 # SCiO Spectral Indices Prospects
 
-SCiO Spectral Indices Prospects (SIPS) is a dataset containing historical data and projections for two dimensionless indices relevant to climate and environmental science, but usable in various use cases. The indices are:
+SCiO Spectral Indices Prospects (SIPs) is a dataset containing historical data and projections for two dimensionless indices relevant to climate and environmental science, but usable in various use cases. The indices are:
 
 1. Normalized Difference Vegetation Index ([NDVI](https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index)): Effects like deforestation, desertification, and land degradation are directly related to climate change and human activities. Lang coverage as well as qualitative characteristics related to plant and crops health, can be monitored and assessed via the usage of satellite imaging and its analysis for the calculation of metrics like the Normalized Difference Vegetation Index (NDVI). NDVI is used to determine land use (arable crops, permanent crops, forests, deserts) by analyzing the light reflectance of an area in different spectra. In combination with other data, it is also used to estimate crop health and yield production for various cultivations.
 2. Soil Moisture Index (SMI) [^1]: Soil moisture is one of the essential environmental variables per the United Nations and plays a critical role in agriculture, ecology, and meteorology. It is one of the major factors for determining the success of a harvest and the sustainability of local flora, since most vegetation obtains the water it needs from the soil. Satellite imagery along with Digital Elevation Maps and climatic measurements are used for calculating the Soil Moisture Index (SMI), an indicator for the amount of water present between soil surface and groundwater level, from where it is uptaken by plants.
@@ -11,7 +11,7 @@ SIPS operate at a yearly step. Historical coverage starts from 1982 for NDVI and
 
 ## Spatial coverage
 
-The current version (v1.0) of SIPS includes data for 7 countries and their first-level administrative jurisdictions. Future versions will expand the geographical coverage of the dataset. The geographic coverage of each SIPS version can be monitored via the relevant [report](Geographic Coverage.md).
+The current version (v1.0) of SIPs includes data for 7 countries and their first-level administrative jurisdictions. Future versions will expand the geographical coverage of the dataset. The geographic coverage of each SIPS version can be monitored via the relevant [report](Geographic Coverage.md).
 
 ## Prediction generation methodology
 
