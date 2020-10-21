@@ -11,7 +11,7 @@ SIPS operate at a yearly step. Historical coverage starts from 1982 for NDVI and
 
 ## Spatial coverage
 
-The current version (v1.0) of SIPS includes data for 7 countries and their first-level administrative jurisdictions. Future versions will expand the geographical coverage of the dataset. The geographic coverage of each SIPS version can be monitored via the relevant report.
+The current version (v1.0) of SIPS includes data for 7 countries and their first-level administrative jurisdictions. Future versions will expand the geographical coverage of the dataset. The geographic coverage of each SIPS version can be monitored via the relevant [report](./Geographic Coverage.md).
 
 ## Prediction generation methodology
 
@@ -29,7 +29,7 @@ Each file includees three columns: `Year`, `rcp4.5_<index>` and `rcp8.5_<index>`
 
 ### Country and Region specifier encoding
 
-The following table summarises the encoding used for the country specifiers throughout the dataset(the `area_code` parameter in the respective filenames). Detailed specifier codes, including codes uses for each country first administration level (regions) can be found at the Region codes file in the SIPS repository. 
+The following table summarises the encoding used for the country specifiers throughout the dataset(the `area_code` parameter in the respective filenames). Detailed specifier codes, including codes uses for each country first administration level (regions) can be found at the Region Codes [file](./Region Codes.md) in the SIPS repository.
 
 #### Country codes
 
