@@ -13,9 +13,9 @@ SIPs operate at a yearly step. Historical coverage starts from 1982 for NDVI and
 
 The current version (v1.0) of SIPs includes data for 7 countries and their first-level administrative jurisdictions. Future versions will expand the geographical coverage of the dataset. The geographic coverage of each SIPs version can be monitored via the relevant [report](https://github.com/SCiO-systems/SIP/blob/main/Geographic%20Coverage.md).
 
-## Prediction generation methodology
+## Prediction methodology
 
-SIPs predictions are based on the [ARIMA model](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) which is widely used for timeseries predictions. More specifically, we used the ARIMAX model, i.e. an ARIMA model with the integration of exogenous variables for prediction calculation. For SIPS, we use maximum average temperature and average precipitation as exogenous variables.
+SIPs predictions are based on the [ARIMA model](https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average) which is widely used for timeseries predictions. More specifically, we used the ARIMAX model, i.e. an ARIMA model with the integration of exogenous variables for prediction calculation. For SIPs, we use annual maximum temperature and annual average precipitation as exogenous variables.
 
 For ARIMAX to operate, we need historical data for the targeted variables and both historical and predictive data (for the targeted prediction timeframe) for the exogenous variables. Historical values for the indices were retrieved from the [NOAA Climate Data Record (CDR)](https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.ncdc:C00813) and the [ESA CCI Soil Moisture Product](https://www.esa-soilmoisture-cci.org/node/238) datasets for NDVI and SMI respectively. Historical values for the exogenous variables were produced using data from the [WorldClim Monthly Data](https://www.worldclim.org/data/monthlywth.html) collection, a downscale of [CRU-TS-4.0.3](https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.03/). Yearly values are calculated by computing the average of monthly values as provided by the original dataset. Finally, predictive values for the exogenous variables were retrieved from the [NASA Earth Exchange (NEX) dataset](https://www.nasa.gov/nex).
 
