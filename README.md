@@ -11,7 +11,7 @@ SIPS operate at a yearly step. Historical coverage starts from 1982 for NDVI and
 
 ## Spatial coverage
 
-The current version (v1.0) of SIPs includes data for 7 countries and their first-level administrative jurisdictions. Future versions will expand the geographical coverage of the dataset. The geographic coverage of each SIPS version can be monitored via the relevant [report](Geographic Coverage.md).
+The current version (v1.0) of SIPs includes data for 7 countries and their first-level administrative jurisdictions. Future versions will expand the geographical coverage of the dataset. The geographic coverage of each SIPS version can be monitored via the relevant [report](https://github.com/SCiO-systems/SIP/blob/main/Geographic%20Coverage.md).
 
 ## Prediction generation methodology
 
